@@ -6,6 +6,7 @@
 
 ## 📋 ¿Qué es este proyecto?
 
+Desarrollado como parte de un sistema de gestión de dispositivos IoT.
 LedsDBStatus es un microservicio backend que permite:
 - **Consultar el estado** de todas las lámparas registradas en el sistema
 - **Obtener información detallada** de una lámpara específica por ID
@@ -213,13 +214,6 @@ Verifica que el ID existe en la base de datos:
 curl -X GET http://localhost:8080/leds/all
 ```
 
-## 📄 Licencia
-
-Este proyecto es de uso privado.
-
-## 👤 Autor
-
-Desarrollado como parte de un sistema de gestión de dispositivos IoT.
 
 ---
 
